@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Hb from './Hb';
+
+ReactDOM.render(<Hb />, document.querySelector('#root'));
 
 ReactDOM.render(
   <React.StrictMode>
