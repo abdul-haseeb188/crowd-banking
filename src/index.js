@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Hb from './Hb';
+import Hb from './components/header2/Hb';
+// import Bank from './components/header/Bank';
 
-ReactDOM.render(<Hb />, document.querySelector('#root'));
 
+ReactDOM.render(<Hb/>, document.querySelector('#root'));
 ReactDOM.render(
   <React.StrictMode>
     <App />

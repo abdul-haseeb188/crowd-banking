@@ -1,0 +1,36 @@
+.mainHeader{
+display: flex;
+flex-direction: row;
+
+  background-image: linear-gradient(to bottom right, #3a244b, #ae256d);
+justify-content: space-between;
+margin: 0px 100px 0px 100px;;
+
+div{
+  color: white !important;
+      display: flex;
+    align-items: center;
+}
+
+}
+
+.subheader{
+  display: flex;
+flex-direction: row;
+
+ 
+justify-content: space-between;
+margin: 0px 100px 0px 100px;;
+}
+img{
+  height: 100px;
+  width: 200px;
+  border-left: 1px black solid;
+}
+p{
+  text-transform: uppercase;
+}
+input, .custom-select, select{
+  height: 33px;
+}
+

@@ -1,16 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-import { Button } from '@material-ui/core';
-import Bank from './components/header/Bank';
+// import { Button } from '@material-ui/core';
+//import Bank from './components/header/Bank';
 import Bh from './components/header2/Hb';
+
+
 
 function App() {
   return (
     <div className="App">
-      <Button color="primary">Hello World</Button>;
-    {/* <Bank/>
+      {/* <Button color="primary">Hello World</Button>; */}
+    {/* <Bank/> */}
     <Bh/>
-
+    
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -24,7 +27,7 @@ function App() {
         >
           Learn React
         </a>
-      </header> */}
+      </header>
     </div>
   );
 }
